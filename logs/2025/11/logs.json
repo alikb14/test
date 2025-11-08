@@ -1,0 +1,853 @@
+{
+  "level": "INFO",
+  "log_level": "INFO",
+  "message": "Logging system initialized",
+  "timestamp": "2025-11-05T19:24:01.946511"
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-05T19:24:06.256109",
+  "update": {
+    "chat_id": 343571831,
+    "content_type": "text",
+    "from_state": null,
+    "message_id": 1673,
+    "text": "/start",
+    "update_id": 616012544,
+    "update_type": "message",
+    "user_id": 343571831
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": null,
+  "handler": "call",
+  "timestamp": "2025-11-05T19:24:06.581308",
+  "to_state": "AdminMenu:idle",
+  "update_id": 616012544,
+  "user_id": 343571831
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-05T19:24:09.737189",
+  "update": {
+    "chat_id": 343571831,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1675,
+    "text": "/start",
+    "update_id": 616012545,
+    "update_type": "message",
+    "user_id": 343571831
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-05T20:06:10.224865",
+  "update": {
+    "chat_id": 343571831,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1677,
+    "text": "/start",
+    "update_id": 616012546,
+    "update_type": "message",
+    "user_id": 343571831
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T00:24:39.354924",
+  "update": {
+    "chat_id": 343571831,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1679,
+    "text": "/start",
+    "update_id": 616012547,
+    "update_type": "message",
+    "user_id": 343571831
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:29:36.105388",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": null,
+    "message_id": 1681,
+    "text": "/start",
+    "update_id": 616012549,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": null,
+  "handler": "call",
+  "timestamp": "2025-11-06T11:29:36.413803",
+  "to_state": "AuthState:waiting_for_contact",
+  "update_id": 616012549,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:29:40.634975",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "contact",
+    "from_state": "AuthState:waiting_for_contact",
+    "message_id": 1683,
+    "text": null,
+    "update_id": 616012550,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "INFO",
+  "message": "User telegram attached",
+  "telegram_id": 334366263,
+  "timestamp": "2025-11-06T11:29:40.654951",
+  "user_id": 2
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AuthState:waiting_for_contact",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:29:40.767292",
+  "to_state": "AdminMenu:idle",
+  "update_id": 616012550,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:29:48.959129",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1685,
+    "text": "🔋 درخواست شارژ",
+    "update_id": 616012551,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminMenu:idle",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:29:49.069746",
+  "to_state": "ChargeRequestFlow:choosing_card_type",
+  "update_id": 616012551,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:29:53.661405",
+  "update": {
+    "callback_data": "card_type:asia",
+    "chat_id": null,
+    "from_state": "ChargeRequestFlow:choosing_card_type",
+    "message_id": 1686,
+    "update_id": 616012552,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "ChargeRequestFlow:choosing_card_type",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:29:54.471785",
+  "to_state": "ChargeRequestFlow:choosing_amount",
+  "update_id": 616012552,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:30:03.874080",
+  "update": {
+    "callback_data": "charge_amount:5000",
+    "chat_id": null,
+    "from_state": "ChargeRequestFlow:choosing_amount",
+    "message_id": 1688,
+    "update_id": 616012553,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "amount": 5000,
+  "level": "INFO",
+  "message": "Recharge request created",
+  "request_id": 1,
+  "request_type": "fixed",
+  "requester_id": 2,
+  "responsible_id": null,
+  "status": "pending_accounting",
+  "timestamp": "2025-11-06T11:30:04.008448"
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "ChargeRequestFlow:choosing_amount",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:30:04.208536",
+  "to_state": "AdminMenu:idle",
+  "update_id": 616012553,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:31:00.265951",
+  "update": {
+    "callback_data": "req_acc:approve:1",
+    "chat_id": null,
+    "from_state": "AdminMenu:idle",
+    "message_id": 1689,
+    "update_id": 616012554,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:31:12.366088",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1690,
+    "text": "🔙 بازگشت به منوی اصلی",
+    "update_id": 616012555,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:31:55.673115",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1692,
+    "text": "/start",
+    "update_id": 616012556,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:01.688090",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1694,
+    "text": "💳 کارت‌ها",
+    "update_id": 616012557,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminMenu:idle",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:32:01.809520",
+  "to_state": "AdminMenu:cards_menu",
+  "update_id": 616012557,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:06.856616",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:cards_menu",
+    "message_id": 1696,
+    "text": "📋 لیست کارت‌ها",
+    "update_id": 616012558,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:09.295693",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:cards_menu",
+    "message_id": 1698,
+    "text": "➕ افزودن کارت",
+    "update_id": 616012559,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminMenu:cards_menu",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:32:09.428966",
+  "to_state": "AdminAddCard:choosing_type",
+  "update_id": 616012559,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:12.332124",
+  "update": {
+    "callback_data": "card_type:asia",
+    "chat_id": null,
+    "from_state": "AdminAddCard:choosing_type",
+    "message_id": 1699,
+    "update_id": 616012560,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminAddCard:choosing_type",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:32:12.563497",
+  "to_state": "AdminAddCard:choosing_amount",
+  "update_id": 616012560,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:14.936508",
+  "update": {
+    "callback_data": "card_amount:5000",
+    "chat_id": null,
+    "from_state": "AdminAddCard:choosing_amount",
+    "message_id": 1699,
+    "update_id": 616012561,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminAddCard:choosing_amount",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:32:15.265907",
+  "to_state": "AdminAddCard:waiting_for_image",
+  "update_id": 616012561,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:41.068100",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1701,
+    "text": "5858436524141424797986",
+    "update_id": 616012562,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:53.190178",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1703,
+    "text": "🔙 بازگشت به منوی اصلی",
+    "update_id": 616012563,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminAddCard:waiting_for_image",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:32:53.303376",
+  "to_state": "AdminMenu:idle",
+  "update_id": 616012563,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:55.377004",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1705,
+    "text": "💳 کارت‌ها",
+    "update_id": 616012564,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminMenu:idle",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:32:55.483786",
+  "to_state": "AdminMenu:cards_menu",
+  "update_id": 616012564,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:57.599550",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:cards_menu",
+    "message_id": 1707,
+    "text": "➕ افزودن کارت",
+    "update_id": 616012565,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminMenu:cards_menu",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:32:57.709363",
+  "to_state": "AdminAddCard:choosing_type",
+  "update_id": 616012565,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:32:59.964317",
+  "update": {
+    "callback_data": "card_type:athir",
+    "chat_id": null,
+    "from_state": "AdminAddCard:choosing_type",
+    "message_id": 1708,
+    "update_id": 616012566,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminAddCard:choosing_type",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:33:00.297072",
+  "to_state": "AdminAddCard:choosing_amount",
+  "update_id": 616012566,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:33:02.588032",
+  "update": {
+    "callback_data": "card_amount:10000",
+    "chat_id": null,
+    "from_state": "AdminAddCard:choosing_amount",
+    "message_id": 1708,
+    "update_id": 616012567,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminAddCard:choosing_amount",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:33:02.944978",
+  "to_state": "AdminAddCard:waiting_for_image",
+  "update_id": 616012567,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:33:27.084637",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1710,
+    "text": "5336363644666474 8754747747474744 8585858558585878 8558588558585877 1144252525335336",
+    "update_id": 616012568,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:33:43.819566",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1712,
+    "text": "🔙 بازگشت به منوی اصلی",
+    "update_id": 616012569,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminAddCard:waiting_for_image",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:33:44.098699",
+  "to_state": "AdminMenu:idle",
+  "update_id": 616012569,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:33:47.471366",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1714,
+    "text": "💳 کارت‌ها",
+    "update_id": 616012570,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminMenu:idle",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:33:47.587614",
+  "to_state": "AdminMenu:cards_menu",
+  "update_id": 616012570,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:33:50.613164",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "text",
+    "from_state": "AdminMenu:cards_menu",
+    "message_id": 1716,
+    "text": "➕ افزودن کارت",
+    "update_id": 616012571,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminMenu:cards_menu",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:33:50.777001",
+  "to_state": "AdminAddCard:choosing_type",
+  "update_id": 616012571,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:33:52.370026",
+  "update": {
+    "callback_data": "card_type:asia",
+    "chat_id": null,
+    "from_state": "AdminAddCard:choosing_type",
+    "message_id": 1717,
+    "update_id": 616012572,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminAddCard:choosing_type",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:33:52.603971",
+  "to_state": "AdminAddCard:choosing_amount",
+  "update_id": 616012572,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:34:01.111149",
+  "update": {
+    "callback_data": "card_amount:10000",
+    "chat_id": null,
+    "from_state": "AdminAddCard:choosing_amount",
+    "message_id": 1717,
+    "update_id": 616012573,
+    "update_type": "callback_query",
+    "user_id": 334366263
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": "AdminAddCard:choosing_amount",
+  "handler": "call",
+  "timestamp": "2025-11-06T11:34:01.618099",
+  "to_state": "AdminAddCard:waiting_for_image",
+  "update_id": 616012573,
+  "user_id": 334366263
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:34:31.880000",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "photo",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1719,
+    "text": null,
+    "update_id": 616012574,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:34:31.880997",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "photo",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1720,
+    "text": null,
+    "update_id": 616012575,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:34:31.880997",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "photo",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1721,
+    "text": null,
+    "update_id": 616012576,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:34:31.882006",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "photo",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1722,
+    "text": null,
+    "update_id": 616012577,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T11:34:31.882995",
+  "update": {
+    "chat_id": 334366263,
+    "content_type": "photo",
+    "from_state": "AdminAddCard:waiting_for_image",
+    "message_id": 1723,
+    "text": null,
+    "update_id": 616012578,
+    "update_type": "message",
+    "user_id": 334366263
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-06T15:39:19.149011",
+  "update": {
+    "chat_id": 343571831,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 1729,
+    "text": "/start",
+    "update_id": 616012579,
+    "update_type": "message",
+    "user_id": 343571831
+  }
+}
+
+{
+  "level": "INFO",
+  "log_level": "INFO",
+  "message": "Logging system initialized",
+  "timestamp": "2025-11-08T14:32:17.368337"
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-08T14:32:17.835704",
+  "update": {
+    "chat_id": 343571831,
+    "content_type": "text",
+    "from_state": null,
+    "message_id": 2527,
+    "text": "/start",
+    "update_id": 446947084,
+    "update_type": "message",
+    "user_id": 343571831
+  }
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-08T14:32:17.837701",
+  "update": {
+    "chat_id": 343571831,
+    "content_type": "text",
+    "from_state": null,
+    "message_id": 2528,
+    "text": "/start",
+    "update_id": 446947085,
+    "update_type": "message",
+    "user_id": 343571831
+  }
+}
+
+{
+  "event_type": "state_change",
+  "from_state": null,
+  "handler": "call",
+  "timestamp": "2025-11-08T14:32:18.183954",
+  "to_state": "AdminMenu:idle",
+  "update_id": 446947085,
+  "user_id": 343571831
+}
+
+{
+  "event_type": "state_change",
+  "from_state": null,
+  "handler": "call",
+  "timestamp": "2025-11-08T14:32:18.192930",
+  "to_state": "AdminMenu:idle",
+  "update_id": 446947084,
+  "user_id": 343571831
+}
+
+{
+  "level": "DEBUG",
+  "message": "Processing update",
+  "timestamp": "2025-11-08T14:32:21.361745",
+  "update": {
+    "chat_id": 343571831,
+    "content_type": "text",
+    "from_state": "AdminMenu:idle",
+    "message_id": 2531,
+    "text": "/start",
+    "update_id": 446947086,
+    "update_type": "message",
+    "user_id": 343571831
+  }
+}
+
