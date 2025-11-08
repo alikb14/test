@@ -1,0 +1,5 @@
+        AdminAddCard.choosing_amount,
+        AdminAddCard.waiting_for_image,
+        AdminDefineUser.waiting_for_phone,
+        AdminDefineUser.waiting_for_line_expiry,
+        AdminDefineUser.waiting_for_full_name,

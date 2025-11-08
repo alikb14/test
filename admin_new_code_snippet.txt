@@ -1,0 +1,200 @@
+from __future__ import annotations
+
+import contextlib
+import logging
+from datetime import datetime, timezone
+
+from aiogram import F, Router
+from aiogram.filters import StateFilter
+from aiogra
+@router.message(AdminMenu.users_menu, F.text == "📤 ارسال کارت برای کاربر")
+async def admin_send_card_start(message: Message, state: FSMContext) -> None:
+    services = get_services(message)
+    users = await services.users.list_users()
+    if not users:
+        await message.answer("هیچ کاربری برای ارسال کارت وجود ندارد.")
+        return
+
+    await state.set_state(AdminSendCard.choosing_user)
+    await message.answer(
+        "کاربر موردنظر را انتخاب کنید و شناسه او را ارسال نمایید. برای لغو از دکمه «🔙 بازگشت به منوی اصلی» استفاده کنید.",
+        reply_markup=cancel_to_main_keyboard(),
+    )
+
+    lines = ["📋 لیست کاربران در دسترس:"]
+    for user in sorted(users, key=lambda item: item.full_name):
+        entry = _format_user_entry(user)
+        if not user.telegram_id:
+            entry += " (بدون اتصال تلگرام)"
+        lines.append(entry)
+
+    blocks: list[str] = []
+    current_block = lines[0]
+    for entry in lines[1:]:
+        candidate = f"{current_block}\n{entry}"
+        if len(candidate) > 3800:
+            blocks.append(current_block)
+            current_block = entry
+        else:
+            current_block = candidate
+    if current_block:
+        blocks.append(current_block)
+
+    for block in blocks:
+        await message.answer(block)
+
+    await message.answer("شناسه کاربر مدنظر را ارسال کنید تا فرآیند ادامه پیدا کند.")
+
+
+@router.message(StateFilter(AdminSendCard.choosing_user))
+async def admin_send_card_choose_user(message: Message, state: FSMContext) -> None:
+    raw_text = (message.text or "").strip()
+    if not raw_text.isdigit():
+        await message.answer("شناسه کاربر باید به صورت عددی ارسال شود.")
+        return
+
+    user_id = int(raw_text)
+    services = get_services(message)
+    target_user = await services.users.get_by_id(user_id)
+    if target_user is None:
+        await message.answer("کاربر یافت نشد. لطفاً شناسه دیگری وارد کنید.")
+        return
+    if not target_user.telegram_id:
+        await message.answer(
+            "این کاربر هنوز ربات تلگرام را فعال نکرده است و امکان ارسال کارت وجود ندارد. کاربر دیگری را انتخاب کنید.")
+        return
+
+    await state.update_data(target_user_id=user_id, target_user_name=target_user.full_name)
+    await state.set_state(AdminSendCard.choosing_card_type)
+    await message.answer(
+        f"کاربر {target_user.full_name} انتخاب شد. لطفاً نوع کارت را مشخص کنید.",
+        reply_markup=card_type_keyboard(),
+    )
+
+
+@router.callback_query(StateFilter(AdminSendCard.choosing_card_type), F.data.startswith("card_type:"))
+async def admin_send_card_type(callback: CallbackQuery, state: FSMContext) -> None:
+    _, raw_type = callback.data.split(":", maxsplit=1)
+    card_type = CardType(raw_type)
+    await state.update_data(card_type=raw_type)
+    await state.set_state(AdminSendCard.choosing_amount)
+    await callback.message.edit_text(
+        f"نوع کارت {card_type_title(card_type)} انتخاب شد. مبلغ کارت را تعیین کنید:",
+        reply_markup=card_amount_keyboard(),
+    )
+    await callback.answer()
+
+
+@router.callback_query(StateFilter(AdminSendCard.choosing_amount), F.data.startswith("card_amount:"))
+async def admin_send_card_amount(callback: CallbackQuery, state: FSMContext) -> None:
+    _, raw_amount = callback.data.split(":", maxsplit=1)
+    if raw_amount == "custom":
+        await callback.answer("ارسال با مبلغ دلخواه پشتیبانی نمی‌شود.", show_alert=True)
+        return
+
+    amount = int(raw_amount)
+    data = await state.get_data()
+    target_user_id = data.get("target_user_id")
+    card_type_raw = data.get("card_type")
+    if target_user_id is None or card_type_raw is None:
+        await state.clear()
+        await state.set_state(AdminMenu.users_menu)
+        await callback.message.edit_text("اطلاعات عملیات ناقص بود. لطفاً دوباره تلاش کنید.")
+        await callback.message.answer(
+            "به منوی مدیریت کاربران بازگشتید.",
+            reply_markup=admin_users_menu_keyboard(),
+        )
+        await callback.answer()
+        return
+
+    services = get_services(callback)
+    target_user = await services.users.get_by_id(target_user_id)
+    if target_user is None:
+        await state.clear()
+        await state.set_state(AdminMenu.users_menu)
+        await callback.message.edit_text("کاربر انتخاب‌شده دیگر در سیستم وجود ندارد.")
+        await callback.message.answer(
+            "به منوی مدیریت کاربران بازگشتید.",
+            reply_markup=admin_users_menu_keyboard(),
+        )
+        await callback.answer()
+        return
+    if not target_user.telegram_id:
+        await callback.message.edit_text(
+            "این کاربر دیگر به ربات متصل نیست. عملیات لغو شد.")
+        await state.clear()
+        await state.set_state(AdminMenu.users_menu)
+        await callback.message.answer(
+            "به منوی مدیریت کاربران بازگشتید.",
+            reply_markup=admin_users_menu_keyboard(),
+        )
+        await callback.answer()
+        return
+
+    operator = await get_current_user(callback)
+    actor_id = operator.id if operator else None
+    card_type = CardType(card_type_raw)
+
+    await callback.message.edit_text("⏳ در حال ارسال کارت...")
+    try:
+        card = await services.cards.take_first_available(
+            card_type=card_type,
+            amount=amount,
+            actor_id=actor_id,
+        )
+    except NoResultFound:
+        await callback.message.edit_text(
+            f"❌ هیچ کارت {card_type_title(card_type)} با مبلغ {amount:,} دینار در موجودی نیست.")
+        await callback.message.answer(
+            "مبلغ دیگری را انتخاب کنید:",
+            reply_markup=card_amount_keyboard(),
+        )
+        await callback.answer()
+        return
+
+    caption = (
+        f"✅ کارت {card_type_title(card.card_type)} به مبلغ {card.amount:,} دینار برای شما ارسال شد.\n"
+        "ارسال کننده: مدیریت سیستم.")
+    sent = await send_card_to_chat(
+        callback.message.bot,
+        services,
+        card,
+        target_user.telegram_id,
+        caption,
+    )
+    if not sent:
+        await services.cards.restore_card(card.id, actor_id=actor_id)
+        await callback.message.edit_text(
+            "ارسال کارت با خطا مواجه شد. کمی بعد دوباره تلاش کنید.")
+        await callback.answer()
+        return
+
+    await services.cards.mark_sent(card.id, actor_id=actor_id)
+    await notify_inventory_threshold(
+        callback.message.bot,
+        services,
+        card.card_type,
+        card.amount,
+        exclude_user_id=actor_id,
+    )
+
+    if operator:
+        logger.log_admin_action(
+            action="send_card_direct",
+            admin_id=operator.id,
+            target_type="user",
+            target_user_id=target_user.id,
+            card_type=card.card_type.value,
+            amount=card.amount,
+            card_id=card.id,
+        )
+
+    admins = await services.users.list_admins()
+    info_message = (
+        f"ادمین {operator.full_name if operator else 'سیستم'} کارت {card_type_title(card.card_type)}"
+        f" به مبلغ {card.amount:,} دینار را برای {target_user.full_name} ارسال کرد.")
+    for other_admin in admins:
+        if not other_admin.telegram_id:
+            continue
+        if operator and other_admin.id == operator.id:
+            continue

@@ -1,0 +1,2847 @@
+[
+  {
+    "file": "app/handlers/admin.py",
+    "line": 50,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 59,
+    "text": "مدیر"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 60,
+    "text": "مسئول"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 61,
+    "text": "کاربر"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 93,
+    "text": "اطلاعات ناقص است. عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 97,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 130,
+    "text": "کاربری با این شماره یا حساب موجود است. عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 135,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 144,
+    "text": " ثبت شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 144,
+    "text": " و نقش "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 144,
+    "text": "کاربر جدید با شناسه "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 147,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 155,
+    "text": "💳 کارت‌ها"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 159,
+    "text": "💳 منوی مدیریت کارت‌ها\nلطفاً یکی از گزینه‌های زیر را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 164,
+    "text": "👥 کاربرها"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 168,
+    "text": "👥 منوی مدیریت کاربران\nلطفاً یکی از گزینه‌های زیر را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 180,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 218,
+    "text": "عملیات لغو شد. به منوی اصلی برگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 223,
+    "text": "❌ حذف کاربر"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 228,
+    "text": "کاربری برای حذف وجود ندارد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 233,
+    "text": "شناسه کاربری که باید حذف شود را ارسال کنید. برای لغو از دکمه «🔙 بازگشت به منوی اصلی» استفاده کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 237,
+    "text": "📋 فهرست کاربران:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 261,
+    "text": "شناسه کاربر باید به صورت عددی ارسال شود."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 268,
+    "text": "کاربر یافت نشد. لطفاً شناسه دیگری وارد کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 271,
+    "text": "حذف مدیر سیستم مجاز نیست."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 275,
+    "text": "امکان حذف حساب کاربری خودتان وجود ندارد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 282,
+    "text": "✅ تایید حذف"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 283,
+    "text": "❌ لغو"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 287,
+    "text": " مطمئن هستید؟"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 287,
+    "text": "آیا از حذف کاربر "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 296,
+    "text": "عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 298,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 311,
+    "text": "اطلاعاتی برای حذف کاربر یافت نشد. عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 313,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 326,
+    "text": "کاربر انتخاب‌شده دیگر در سیستم وجود ندارد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 328,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 343,
+    "text": " غیرفعال شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 343,
+    "text": "✅ کاربر "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 345,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 351,
+    "text": "📤 ارسال کارت برای کاربر"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 356,
+    "text": "هیچ کاربری برای ارسال کارت وجود ندارد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 361,
+    "text": "کاربر موردنظر را انتخاب کنید و شناسه او را ارسال نمایید. برای لغو از دکمه «🔙 بازگشت به منوی اصلی» استفاده کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 365,
+    "text": "📋 لیست کاربران در دسترس:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 369,
+    "text": " (بدون اتصال تلگرام)"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 387,
+    "text": "شناسه کاربر مدنظر را ارسال کنید تا فرآیند ادامه پیدا کند."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 394,
+    "text": "شناسه کاربر باید به صورت عددی ارسال شود."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 401,
+    "text": "کاربر یافت نشد. لطفاً شناسه دیگری وارد کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 405,
+    "text": "این کاربر هنوز ربات تلگرام را فعال نکرده است و امکان ارسال کارت وجود ندارد. کاربر دیگری را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 412,
+    "text": " انتخاب شد. لطفاً نوع کارت را مشخص کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 412,
+    "text": "کاربر "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 424,
+    "text": " انتخاب شد. مبلغ کارت را تعیین کنید:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 424,
+    "text": "نوع کارت "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 434,
+    "text": "ارسال با مبلغ دلخواه پشتیبانی نمی‌شود."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 444,
+    "text": "اطلاعات عملیات ناقص بود. لطفاً دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 446,
+    "text": "به منوی مدیریت کاربران بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 457,
+    "text": "کاربر انتخاب‌شده دیگر در سیستم وجود ندارد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 459,
+    "text": "به منوی مدیریت کاربران بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 465,
+    "text": "این کاربر دیگر به ربات متصل نیست. عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 469,
+    "text": "به منوی مدیریت کاربران بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 479,
+    "text": "⏳ در حال ارسال کارت..."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 488,
+    "text": " با مبلغ "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 488,
+    "text": " دینار در موجودی نیست."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 488,
+    "text": "❌ هیچ کارت "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 491,
+    "text": "مبلغ دیگری را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 498,
+    "text": " به مبلغ "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 498,
+    "text": " دینار برای شما ارسال شد.\nارسال کننده: مدیریت سیستم."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 498,
+    "text": "✅ کارت "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 510,
+    "text": "ارسال کارت با خطا مواجه شد. کمی بعد دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 539,
+    "text": "ارسال کارت ثبت نشد. لطفاً دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 566,
+    "text": " ارسال کرد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 566,
+    "text": " به مبلغ "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 566,
+    "text": " دینار را برای "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 566,
+    "text": " کارت "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 566,
+    "text": "ادمین "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 566,
+    "text": "سیستم"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 578,
+    "text": "عملیات ارسال کارت تکمیل شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 580,
+    "text": " ارسال شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 580,
+    "text": " به مبلغ "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 580,
+    "text": " دینار برای "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 580,
+    "text": "✅ کارت "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 588,
+    "text": "➕ افزودن کارت"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 592,
+    "text": "یکی از گزینه‌های زیر را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 603,
+    "text": "💰 لطفاً مبلغ کارت را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 613,
+    "text": "مبالغ دلخواه برای افزودن کارت فعلاً پشتیبانی نمی‌شود."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 626,
+    "text": "📷 لطفاً عکس یا سریال‌نامبر کارت شارژ را ارسال کنید.\nبرای ارسال چند سریال می‌توانید از فاصله یا ویرگول استفاده کنید.\nبرای پایان، کلمه «تمام» را بفرستید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 639,
+    "text": "اطلاعات کارت ناقص است. دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 642,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 654,
+    "text": "این تصویر قبلاً ثبت شده است. لطفاً تصویر دیگری ارسال کنید یا «تمام» را بفرستید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 667,
+    "text": "ذخیره تصویر کارت با خطا مواجه شد. لطفاً دوباره تلاش کنید یا از دکمه «🔙 بازگشت به منوی اصلی» استفاده کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 682,
+    "text": ".\nبرای افزودن کارت دیگر، عکس یا سریال‌نامبر ارسال کنید؛ برای پایان، کلمه «تمام» را بفرستید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 682,
+    "text": "✅ عکس ثبت شد. مجموع کارت‌های ثبت‌شده: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 694,
+    "text": "اطلاعات کارت ناقص است. دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 697,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 702,
+    "text": "متن دریافت نشد. لطفاً سریال‌نامبر را وارد کنید یا عکس ارسال نمایید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 707,
+    "text": "تمام"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 709,
+    "text": "هنوز کارتی ثبت نشده است. ابتدا عکس یا سریال‌نامبر ارسال کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 715,
+    "text": " دینار "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 715,
+    "text": " مطمئن هستید؟"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 715,
+    "text": " کارت "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 715,
+    "text": "آیا از اضافه کردن "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 718,
+    "text": "✅ تایید"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 719,
+    "text": "❌ لغو"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 727,
+    "text": "،"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 727,
+    "text": "؛"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 733,
+    "text": "سریال‌نامبر معتبری تشخیص داده نشد. لطفاً مجدداً تلاش کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 746,
+    "text": "همه سریال‌های ارسال‌شده تکراری بودند. لطفاً سریال جدیدی وارد کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 751,
+    "text": " سریال ثبت شد. مجموع کارت‌های ثبت‌شده: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 751,
+    "text": "✅ "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 752,
+    "text": "برای افزودن بیشتر عکس یا سریال‌نامبر دیگری ارسال کنید؛ برای پایان، کلمه «تمام» را بفرستید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 755,
+    "text": "سریال‌های تکراری نادیده گرفته شدند."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 762,
+    "text": "لطفاً عکس یا سریال‌نامبر معتبر ارسال کنید یا با دکمه «🔙 بازگشت به منوی اصلی» عملیات را لغو کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 773,
+    "text": "عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 775,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 791,
+    "text": "اطلاعات کارت ناقص بود. عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 793,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 832,
+    "text": "❌ افزودن کارت با خطا مواجه شد. احتمالاً سریال‌نامبر تکراری است. لطفاً بررسی کنید و دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 841,
+    "text": "❌ افزودن کارت‌ها با خطای غیرمنتظره مواجه شد. لطفاً موجودی را بررسی کنید و در صورت نیاز عملیات را دوباره انجام دهید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 844,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 862,
+    "text": " با موفقیت اضافه شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 862,
+    "text": " دینار "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 862,
+    "text": " کارت "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 862,
+    "text": "✅ "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 865,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 871,
+    "text": "📋 لیست کارت‌ها"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 876,
+    "text": "💳 هیچ کارت فعالی در موجودی ثبت نشده است."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 879,
+    "text": "📋 موجودی کارت‌ها:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 881,
+    "text": "نوع "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 883,
+    "text": "  مبلغ "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 883,
+    "text": " دینار: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 883,
+    "text": " عدد"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 887,
+    "text": "📊 گزارش ها"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 891,
+    "text": "نوع گزارش مورد نظر را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 896,
+    "text": "📊 گزارش کارت‌ها"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 907,
+    "text": "📅 در این ماه کارت مصرف‌شده‌ای ثبت نشده است."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 918,
+    "text": "مبلغ ثابت"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 918,
+    "text": "مبلغ دلخواه"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 921,
+    "text": "—"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 924,
+    "text": "شناسه"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 925,
+    "text": "مبلغ"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 926,
+    "text": "تعرفه واقعی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 927,
+    "text": "نوع درخواست"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 928,
+    "text": "تاریخ ارسال"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 929,
+    "text": "درخواست‌کننده"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 930,
+    "text": "تایید‌کننده"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 931,
+    "text": "مسئول"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 932,
+    "text": "ارسال‌کننده"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 937,
+    "text": "مبلغ"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 938,
+    "text": "تعرفه واقعی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 940,
+    "text": "مبلغ"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 940,
+    "text": "نوع درخواست"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 948,
+    "text": "📊 تعداد کارت‌های مصرف‌شده: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 949,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 949,
+    "text": "💰 مجموع مبالغ اسمی: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 950,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 950,
+    "text": "💵 مجموع تعرفه واقعی: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 953,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 958,
+    "text": "گزارش کارت‌های مصرف‌شده (اکسل)."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 962,
+    "text": "👥 گزارش مصرف کاربرها"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 973,
+    "text": "📅 در این ماه کارت مصرف‌شده‌ای ثبت نشده است."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 986,
+    "text": "کاربر"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 988,
+    "text": "تعداد"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 988,
+    "text": "تعداد"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 989,
+    "text": "مبلغ_اسمی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 989,
+    "text": "مبلغ_اسمی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 990,
+    "text": "تعرفه_واقعی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 990,
+    "text": "تعرفه_واقعی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 997,
+    "text": "مبلغ_اسمی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 998,
+    "text": "تعرفه_واقعی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 999,
+    "text": "تعداد"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1001,
+    "text": "👥 گزارش مصرف کاربران:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1004,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1004,
+    "text": " دینار، تعرفه واقعی "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1004,
+    "text": ", مبلغ اسمی "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1004,
+    "text": ": تعداد "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1004,
+    "text": "تعداد"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1004,
+    "text": "مبلغ_اسمی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1004,
+    "text": "کاربر"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1005,
+    "text": "تعرفه_واقعی"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1008,
+    "text": "🔢 مجموع کارت‌ها: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1009,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1009,
+    "text": "💰 مجموع مبالغ اسمی: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1010,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1010,
+    "text": "💵 مجموع تعرفه واقعی: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1015,
+    "text": "گزارش مصرف کاربران (اکسل)."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1019,
+    "text": "👤 تعریف کاربر جدید"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1023,
+    "text": "📞 شماره تلفن کاربر را ارسال کنید (با پیش‌شماره)."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1035,
+    "text": "❌ فرمت شماره تلفن نامعتبر است!\n📞 فرمت صحیح: +xxxxxxxxxxxxx\nمثال: +964770123456۷"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1045,
+    "text": "این شماره قبلاً در سیستم ثبت شده است. لطفاً شماره دیگری وارد کنید یا به منوی اصلی برگردید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1053,
+    "text": "📅 تاریخ صلاحیت خط را به صورت YYYY-MM-DD یا YYYY/MM/DD ارسال کنید.\nمثال: 2025-12-31 یا 2025/12/31\n\n⚠️ توجه: روز و ماه باید دو رقمی باشند"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1066,
+    "text": "⏭️ رد کردن تاریخ صلاحیت"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1077,
+    "text": "❌ تاریخ نامعتبر است!\n📅 فرمت صحیح: YYYY-MM-DD\nمثال: 2025-12-31 (روز و ماه باید دو رقمی باشند)"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1088,
+    "text": "❌ تاریخ نامعتبر است!\n📅 فرمت صحیح: YYYY/MM/DD\nمثال: 2025/12/31 (روز و ماه باید دو رقمی باشند)"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1096,
+    "text": "❌ فرمت تاریخ نامعتبر است!\n📅 فرمت صحیح: YYYY-MM-DD یا YYYY/MM/DD\nمثال: 2025-12-31 یا 2025/12/31\n⚠️ توجه: روز و ماه باید دو رقمی باشند (04 نه 4)"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1108,
+    "text": "❌ تاریخ انقضا نمی‌تواند مربوط به گذشته باشد.\nلطفاً تاریخی از امروز به بعد وارد کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1117,
+    "text": "👤 نام کامل کاربر را ارسال کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1126,
+    "text": "👥 سمت کاربر را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1140,
+    "text": "آیا این مسئول مجوز ارسال مستقیم کارت را دارد؟\n(با مجوز ارسال مستقیم، مسئول می‌تواند بدون نیاز به تایید ادمین، کارت را به کاربران ارسال کند)"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1149,
+    "text": "بخش کاربر را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1173,
+    "text": "هیچ مسئول فعالی یافت نشد. ابتدا یک مسئول ایجاد کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1178,
+    "text": "بازگشت به منوی اصلی."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1186,
+    "text": "مسئول کاربر را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1202,
+    "text": "📱 نوع خط کاربر را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1217,
+    "text": "👥 لیست کاربرها"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1222,
+    "text": "👥 کاربری برای نمایش وجود ندارد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1226,
+    "text": "مدیر"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1227,
+    "text": "مسئول"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1228,
+    "text": "کاربر"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1231,
+    "text": "شبکه"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1232,
+    "text": "مؤسسه"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1238,
+    "text": "—"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1239,
+    "text": "—"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1240,
+    "text": "غیرفعال"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1240,
+    "text": "فعال"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1242,
+    "text": "—"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1244,
+    "text": "\n   وضعیت: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1244,
+    "text": " | اعتبار خط: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1244,
+    "text": " | بخش: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1244,
+    "text": " | مسئول: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1244,
+    "text": ")\n   سمت: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1249,
+    "text": "لیست کاربرها (تعداد: "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1270,
+    "text": "غیرفعال"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1270,
+    "text": "فعال"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1273,
+    "text": "نام"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1274,
+    "text": "شماره"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1275,
+    "text": "سمت"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1276,
+    "text": "بخش"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1277,
+    "text": "تاریخ اعتبار خط"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1278,
+    "text": "مسئول"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1279,
+    "text": "وضعیت"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1291,
+    "text": "📄 لیست کاربرها به صورت فایل اکسل ارسال شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1299,
+    "text": "💰 "
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1300,
+    "text": "✏️ مبلغ دلخواه"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1310,
+    "text": "نوع کارت انتخاب شد."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1312,
+    "text": "لطفاً مبلغ شارژ را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1316,
+    "text": "یکی از مبالغ زیر را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1321,
+    "text": "🔋 درخواست شارژ"
+  },
+  {
+    "file": "app/handlers/admin.py",
+    "line": 1326,
+    "text": "یکی از گزینه‌های کارت را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 34,
+    "text": "🚀 خوش آمدید مدیر عزیز! لطفاً یکی از گزینه‌های منو را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 40,
+    "text": "👋 سلام مسئول محترم! یکی از گزینه‌های زیر را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 46,
+    "text": "👋 سلام! برای ادامه لطفاً گزینه مورد نظر را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 57,
+    "text": "⚠️ برای استفاده از ربات نیاز به حساب کاربری معتبر دارید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 67,
+    "text": "📞 لطفاً شماره خود را از طریق دکمه زیر به اشتراک بگذارید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 75,
+    "text": "❌ اطلاعات دریافت‌شده معتبر نیست. دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 79,
+    "text": "⚠️ لطفاً فقط شماره خودتان را به اشتراک بگذارید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 88,
+    "text": "😔 متأسفیم، شماره شما در سیستم ثبت نشده است. با مدیر سیستم تماس بگیرید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 95,
+    "text": "🚫 حساب کاربری شما غیرفعال شده است. لطفاً جهت رفع مشکل با مدیر سیستم تماس بگیرید."
+  },
+  {
+    "file": "app/handlers/auth.py",
+    "line": 108,
+    "text": "📞 برای ادامه باید شماره تماس خود را ارسال کنید."
+  },
+  {
+    "file": "app/handlers/common.py",
+    "line": 10,
+    "text": "❓ دستور نامعتبر است. لطفاً از گزینه‌های منو استفاده کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 29,
+    "text": "✅ تأیید و ارسال برای ادمین"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 30,
+    "text": "🚀 تأیید و ارسال کارت"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 31,
+    "text": "❌ رد"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 34,
+    "text": "✅ تأیید"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 35,
+    "text": "❌ رد"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 43,
+    "text": "آسیا"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 43,
+    "text": "اثیر"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 45,
+    "text": "💳 "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 48,
+    "text": "❌ رد درخواست"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 55,
+    "text": "✅ تایید"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 56,
+    "text": "❌ رد درخواست"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 72,
+    "text": " ثبت شد و در انتظار حسابداری است."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 72,
+    "text": "✅ درخواست شارژ شما با شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 77,
+    "text": "در حال پردازش درخواست..."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 83,
+    "text": " ثبت شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 83,
+    "text": "✅ درخواست شارژ شما با شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 89,
+    "text": " ثبت شد و به مسئول ارجاع شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 89,
+    "text": "✅ درخواست شما با شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 101,
+    "text": "لطفاً مبلغ مورد نظر را به عدد وارد کنید 📝"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 118,
+    "text": "در حال ثبت درخواست شارژ..."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 123,
+    "text": "در حال ثبت درخواست شارژ..."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 133,
+    "text": "⚠️ لطفاً مبلغ را فقط با رقم ارسال کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 137,
+    "text": "⏳ در حال ثبت درخواست شارژ..."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 146,
+    "text": "❌ کاربر شناسایی نشد. لطفاً مجدداً /start را ارسال کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 163,
+    "text": "❌ مبلغ نامعتبر است. عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 174,
+    "text": "⚠️ برای شما مسئول تعریف نشده است. لطفاً با مدیر سیستم تماس بگیرید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 201,
+    "text": " به مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 201,
+    "text": " دینار."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 201,
+    "text": "درخواست جدید شارژ از "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 210,
+    "text": " را بررسی کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 210,
+    "text": " مسئول معتبری در تلگرام یافت نشد. درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 210,
+    "text": "برای کاربر "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 220,
+    "text": "آسیا"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 220,
+    "text": "اثیر"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 222,
+    "text": " ثبت شد.\nلطفاً تأیید یا رد کنید:"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 222,
+    "text": " دینار برای کارت "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 222,
+    "text": "درخواست شارژ شما به مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 252,
+    "text": "نامشخص"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 254,
+    "text": "آسیا"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 254,
+    "text": "اثیر"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 260,
+    "text": "\nمبلغ: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 260,
+    "text": "\nمتقاضی: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 260,
+    "text": " دینار\nنوع کارت درخواستی: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 260,
+    "text": "درخواست شارژ شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 260,
+    "text": "✅ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 267,
+    "text": "\n\n✅ این درخواست توسط ادمین تأیید و انجام شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 269,
+    "text": "\n\nلطفاً درخواست را تایید یا رد کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 303,
+    "text": "حساب کاربری شما یافت نشد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 308,
+    "text": "درخواست یافت نشد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 312,
+    "text": "شما مجاز به بررسی این درخواست نیستید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 316,
+    "text": "این درخواست قبلاً بررسی شده است."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 320,
+    "text": "نامشخص"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 329,
+    "text": " تأیید شد و به حسابداری ارسال گردید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 329,
+    "text": "✅ درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 335,
+    "text": " دینار تأیید شد و در انتظار حسابداری است."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 335,
+    "text": "✅ درخواست شارژ شما به مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 340,
+    "text": "شما مجوز ارسال مستقیم کارت را ندارید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 346,
+    "text": "هیچ کارت مناسبی برای این مبلغ در موجودی نیست."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 358,
+    "text": "موجودی کارت به اتمام رسیده است."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 376,
+    "text": "کاربر در تلگرام ثبت‌نام نکرده است. نمی‌توان کارت را ارسال کرد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 381,
+    "text": " دینار تأیید شد.\n💳 تصویر کارت در پیوست ارسال شده است."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 381,
+    "text": "✅ درخواست شارژ شما به مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 387,
+    "text": "ارسال کارت با خطا مواجه شد. لطفاً دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 392,
+    "text": " ارسال شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 392,
+    "text": " تأیید و کارت برای "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 392,
+    "text": "✅ درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 396,
+    "text": "🔍 DEBUG: شروع اطلاع‌رسانی به ادمین‌ها برای درخواست "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 398,
+    "text": "🔍 DEBUG: تعداد ادمین‌ها: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 400,
+    "text": "🔍 DEBUG: بررسی ادمین "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 403,
+    "text": "✅ DEBUG: در حال ارسال پیام به ادمین "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 406,
+    "text": " ارسال کرد.\n💰 مبلغ: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 406,
+    "text": " درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 406,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 406,
+    "text": " را تأیید و کارت را برای "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 406,
+    "text": "👨‍💼 مسئول "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 409,
+    "text": " ارسال شد"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 409,
+    "text": "✅ DEBUG: پیام به ادمین "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 411,
+    "text": "❌ DEBUG: خطا در ارسال پیام به ادمین "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 413,
+    "text": " رد شد - telegram_id: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 413,
+    "text": ", شرط != manager: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 413,
+    "text": "⏭️ DEBUG: ادمین "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 419,
+    "text": "⚠️ خطا در چک موجودی: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 426,
+    "text": " رد شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 426,
+    "text": "درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 430,
+    "text": " دینار توسط مسئول رد شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 430,
+    "text": "❌ درخواست شارژ شما به مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 452,
+    "text": "دسترسی لازم را ندارید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 457,
+    "text": "درخواست یافت نشد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 461,
+    "text": "این درخواست قبلاً بررسی شده است."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 470,
+    "text": " توسط شما رد شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 470,
+    "text": "❌ درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 480,
+    "text": " دینار توسط حسابداری رد شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 480,
+    "text": "❌ درخواست شارژ شما به مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 487,
+    "text": "نامشخص"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 490,
+    "text": " برای "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 490,
+    "text": " توسط حسابداری رد شد.\n💰 مبلغ: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 490,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 490,
+    "text": "❌ درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 500,
+    "text": "نوع خط کاربر مشخص نیست. لطفاً ابتدا نوع خط را برای کاربر ثبت کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 510,
+    "text": "موجودی کارت مناسب برای این کاربر وجود ندارد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 527,
+    "text": " دینار تأیید شد.\nتصویر کارت در پیوست ارسال شده است."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 527,
+    "text": "درخواست شارژ شما به مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 541,
+    "text": " برای "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 541,
+    "text": " تأیید و ارسال شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 541,
+    "text": "درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 541,
+    "text": "کاربر"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 552,
+    "text": " به مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 552,
+    "text": " دینار دریافت کرد.\n🆔 شماره درخواست: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 552,
+    "text": " یک کارت "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 552,
+    "text": "✅ ادمین "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 561,
+    "text": " ارسال شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 561,
+    "text": " برای درخواست شماره "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 561,
+    "text": "کارت "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 562,
+    "text": "\n\n✅ سایر ادمین‌ها مطلع شدند."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 564,
+    "text": "کارت برای کاربر ارسال شد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 568,
+    "text": "ارسال کارت به کاربر. True برمی‌گرداند اگر موفق باشد."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 571,
+    "text": "\n🔢 سریال کارت: "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 593,
+    "text": "\n⚠️ فایل کارت در دسترس نبود."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 595,
+    "text": "\n⚠️ ارسال تصویر موفق نبود؛ لطفاً از سریال ارائه‌شده استفاده کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 610,
+    "text": "آسیا"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 610,
+    "text": "اثیر"
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 616,
+    "text": " با مبلغ "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 616,
+    "text": " دینار به "
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 616,
+    "text": " عدد رسیده است. لطفاً شارژ را تکمیل کنید."
+  },
+  {
+    "file": "app/handlers/requests.py",
+    "line": 616,
+    "text": "موجودی کارت "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 29,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 32,
+    "text": "📊 گزارش ها"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 37,
+    "text": "⚠️ دسترسی مشاهده گزارش برای شما فعال نیست."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 42,
+    "text": "نوع گزارش مورد نظر را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 47,
+    "text": "📊 گزارش کارت‌ها"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 52,
+    "text": "⚠️ دسترسی ندارید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 64,
+    "text": "📅 در این ماه مصرفی برای زیرمجموعه شما ثبت نشده است."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 75,
+    "text": "مبلغ ثابت"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 75,
+    "text": "مبلغ دلخواه"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 78,
+    "text": "—"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 81,
+    "text": "شناسه"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 82,
+    "text": "مبلغ"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 83,
+    "text": "تعرفه واقعی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 84,
+    "text": "نوع درخواست"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 85,
+    "text": "تاریخ ارسال"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 86,
+    "text": "درخواست‌کننده"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 87,
+    "text": "مسئول"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 88,
+    "text": "تایید‌کننده"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 89,
+    "text": "ارسال‌کننده"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 94,
+    "text": "مبلغ"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 95,
+    "text": "تعرفه واقعی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 104,
+    "text": "\n💰 مجموع مبالغ اسمی: "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 104,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 104,
+    "text": " دینار\n💵 مجموع تعرفه واقعی: "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 104,
+    "text": "📊 تعداد کارت‌های مصرف‌شده: "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 112,
+    "text": "📈 گزارش مصرف کارت‌های زیرمجموعه (اکسل)."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 116,
+    "text": "👥 گزارش مصرف کاربرها"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 121,
+    "text": "⚠️ دسترسی ندارید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 133,
+    "text": "📅 در این ماه مصرفی برای زیرمجموعه شما ثبت نشده است."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 146,
+    "text": "کاربر"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 148,
+    "text": "تعداد"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 148,
+    "text": "تعداد"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 149,
+    "text": "مبلغ_اسمی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 149,
+    "text": "مبلغ_اسمی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 150,
+    "text": "تعرفه_واقعی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 150,
+    "text": "تعرفه_واقعی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 157,
+    "text": "مبلغ_اسمی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 158,
+    "text": "تعرفه_واقعی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 159,
+    "text": "تعداد"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 161,
+    "text": "👥 گزارش مصرف کاربران زیرمجموعه:"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 164,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 164,
+    "text": " دینار، تعرفه واقعی "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 164,
+    "text": ", مبلغ اسمی "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 164,
+    "text": ": تعداد "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 164,
+    "text": "تعداد"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 164,
+    "text": "مبلغ_اسمی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 164,
+    "text": "کاربر"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 165,
+    "text": "تعرفه_واقعی"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 168,
+    "text": "🔢 مجموع کارت‌ها: "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 169,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 169,
+    "text": "💰 مجموع مبالغ اسمی: "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 170,
+    "text": " دینار"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 170,
+    "text": "💵 مجموع تعرفه واقعی: "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 175,
+    "text": "گزارش مصرف کاربران زیرمجموعه (اکسل)."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 179,
+    "text": "👥 لیست کاربرها"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 184,
+    "text": "⚠️ دسترسی مشاهده لیست برای شما فعال نیست."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 189,
+    "text": "👥 هیچ کاربری در زیرمجموعه شما ثبت نشده است."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 197,
+    "text": "غیرفعال"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 197,
+    "text": "فعال"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 200,
+    "text": "نام"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 201,
+    "text": "شماره"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 202,
+    "text": "سمت"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 203,
+    "text": "بخش"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 204,
+    "text": "تاریخ اعتبار خط"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 205,
+    "text": "مسئول"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 206,
+    "text": "وضعیت"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 218,
+    "text": "📄 لیست کاربران زیرمجموعه ارسال شد."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 223,
+    "text": "📤 ارسال کارت برای کاربر"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 228,
+    "text": "⚠️ دسترسی لازم برای این عملیات را ندارید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 233,
+    "text": "👥 هیچ کاربری در زیرمجموعه شما ثبت نشده است."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 240,
+    "text": "کاربر موردنظر را انتخاب کنید و شناسه او را ارسال نمایید. برای لغو از دکمه «🔙 بازگشت به منوی اصلی» استفاده کنید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 244,
+    "text": "📋 کاربران زیرمجموعه شما:"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 248,
+    "text": " (بدون اتصال تلگرام)"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 266,
+    "text": "لطفاً شناسه کاربر را ارسال کنید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 273,
+    "text": "شناسه کاربر باید عددی باشد."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 279,
+    "text": "حساب کاربری شما یافت نشد."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 287,
+    "text": "کاربر انتخاب‌شده جزو زیرمجموعه شما نیست."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 290,
+    "text": "این کاربر هنوز ربات را فعال نکرده است. کاربر دیگری را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 296,
+    "text": " انتخاب شد. لطفاً نوع کارت را مشخص کنید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 296,
+    "text": "کاربر "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 308,
+    "text": " انتخاب شد. مبلغ کارت را تعیین کنید:"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 308,
+    "text": "نوع کارت "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 318,
+    "text": "ارسال با مبلغ دلخواه پشتیبانی نمی‌شود."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 328,
+    "text": "اطلاعات عملیات ناقص بود. دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 330,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 343,
+    "text": "کاربر یا مسئول یافت نشد."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 345,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 354,
+    "text": "⏳ در حال ارسال کارت..."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 363,
+    "text": " با مبلغ "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 363,
+    "text": " دینار در موجودی نیست."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 363,
+    "text": "❌ هیچ کارت "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 365,
+    "text": "مبلغ دیگری را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 372,
+    "text": " به مبلغ "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 372,
+    "text": " دینار برای شما ارسال شد.\nارسال کننده: "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 372,
+    "text": "✅ کارت "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 384,
+    "text": "ارسال کارت با خطا مواجه شد. کمی بعد دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 412,
+    "text": "ثبت ارسال کارت با خطا مواجه شد. لطفاً دوباره تلاش کنید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 436,
+    "text": " ارسال کرد."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 436,
+    "text": " به مبلغ "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 436,
+    "text": " دینار را برای "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 436,
+    "text": " کارت "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 436,
+    "text": "مسئول "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 446,
+    "text": "عملیات ارسال کارت تکمیل شد."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 448,
+    "text": " ارسال شد."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 448,
+    "text": " به مبلغ "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 448,
+    "text": " دینار برای "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 448,
+    "text": "✅ کارت "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 475,
+    "text": " با مبلغ "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 475,
+    "text": " دینار ثبت شد و به ادمین ارسال گردید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 475,
+    "text": "✅ درخواست شارژ برای "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 481,
+    "text": " ثبت شد و منتظر تایید ادمین است."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 481,
+    "text": " دینار توسط مسئول "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 481,
+    "text": "درخواست شارژ "
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 485,
+    "text": "به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 494,
+    "text": "🔋 درخواست شارژ"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 499,
+    "text": "💰 مبلغ شارژ مورد نظر را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 503,
+    "text": "یکی از گزینه‌های مبلغ را انتخاب کنید:"
+  },
+  {
+    "file": "app/handlers/responsible.py",
+    "line": 524,
+    "text": "عملیات لغو شد. به منوی اصلی بازگشتید."
+  },
+  {
+    "file": "app/handlers/user.py",
+    "line": 14,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/handlers/user.py",
+    "line": 17,
+    "text": "🔋 درخواست شارژ"
+  },
+  {
+    "file": "app/handlers/user.py",
+    "line": 22,
+    "text": "برای لغو می‌توانید از دکمه «🔙 بازگشت به منوی اصلی» استفاده کنید."
+  },
+  {
+    "file": "app/handlers/user.py",
+    "line": 26,
+    "text": "💰 مبلغ شارژ مورد نظر را انتخاب کنید."
+  },
+  {
+    "file": "app/handlers/user.py",
+    "line": 43,
+    "text": "عملیات لغو شد."
+  },
+  {
+    "file": "app/handlers/utils.py",
+    "line": 33,
+    "text": "آسیا"
+  },
+  {
+    "file": "app/handlers/utils.py",
+    "line": 33,
+    "text": "اثیر"
+  },
+  {
+    "file": "app/handlers/utils.py",
+    "line": 58,
+    "text": " دینار فقط "
+  },
+  {
+    "file": "app/handlers/utils.py",
+    "line": 58,
+    "text": " عدد باقی مانده است."
+  },
+  {
+    "file": "app/handlers/utils.py",
+    "line": 58,
+    "text": " مبلغ "
+  },
+  {
+    "file": "app/handlers/utils.py",
+    "line": 58,
+    "text": "هشدار موجودی: از کارت "
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 44,
+    "text": "مبلغ ثابت"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 44,
+    "text": "مبلغ دلخواه"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 45,
+    "text": "آسیا"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 45,
+    "text": "اثیر"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 58,
+    "text": "شناسه"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 59,
+    "text": "مبلغ اسمی"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 60,
+    "text": "تعرفه واقعی"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 61,
+    "text": "نوع درخواست"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 62,
+    "text": "تاریخ ارسال"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 63,
+    "text": "درخواست‌کننده"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 64,
+    "text": "مسئول"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 65,
+    "text": "تایید‌کننده"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 66,
+    "text": "نوع کارت"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 78,
+    "text": "مبلغ اسمی"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 78,
+    "text": "نوع کارت"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 89,
+    "text": "کاربر"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 93,
+    "text": "جزئیات"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 94,
+    "text": "خلاصه دسته‌بندی"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 110,
+    "text": "\n💰 مجموع مبالغ اسمی: "
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 110,
+    "text": " دینار"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 110,
+    "text": " دینار\n💵 مجموع تعرفه واقعی: "
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 110,
+    "text": ":\n📊 تعداد کارت‌های ارسال‌شده: "
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 110,
+    "text": "📅 گزارش ماهانه دوره "
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 123,
+    "text": "📈 گزارش کلی کارت‌های مصرف‌شده"
+  },
+  {
+    "file": "app/jobs/scheduler.py",
+    "line": 128,
+    "text": "👥 گزارش مصرف کاربران"
+  },
+  {
+    "file": "app/keyboards/cards.py",
+    "line": 17,
+    "text": "💳 آسیا"
+  },
+  {
+    "file": "app/keyboards/cards.py",
+    "line": 17,
+    "text": "💳 اثیر"
+  },
+  {
+    "file": "app/keyboards/cards.py",
+    "line": 27,
+    "text": "💰 "
+  },
+  {
+    "file": "app/keyboards/cards.py",
+    "line": 33,
+    "text": "محاسبه تعرفه واقعی کارت بر اساس مبلغ اسمی\n    \n    تا 15000: مبلغ + 500\n    از 18000 به بعد: مبلغ + 1000\n    "
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 11,
+    "text": "📱 اشتراک‌گذاری شماره"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 18,
+    "text": "💳 کارت‌ها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 19,
+    "text": "👥 کاربرها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 22,
+    "text": "📊 گزارش ها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 23,
+    "text": "🔋 درخواست شارژ"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 31,
+    "text": "➕ افزودن کارت"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 32,
+    "text": "📋 لیست کارت‌ها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 34,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 41,
+    "text": "👤 تعریف کاربر جدید"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 42,
+    "text": "👥 لیست کاربرها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 45,
+    "text": "📤 ارسال کارت برای کاربر"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 46,
+    "text": "❌ حذف کاربر"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 48,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 55,
+    "text": "📊 گزارش ها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 56,
+    "text": "👥 لیست کاربرها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 59,
+    "text": "🔋 درخواست شارژ"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 60,
+    "text": "📤 ارسال کارت برای کاربر"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 67,
+    "text": "🔋 درخواست شارژ"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 73,
+    "text": "⏭️ رد کردن تاریخ صلاحیت"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 74,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 82,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 88,
+    "text": "📊 گزارش کارت‌ها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 89,
+    "text": "👥 گزارش مصرف کاربرها"
+  },
+  {
+    "file": "app/keyboards/common.py",
+    "line": 90,
+    "text": "🔙 بازگشت به منوی اصلی"
+  },
+  {
+    "file": "app/keyboards/requests.py",
+    "line": 12,
+    "text": "💰 "
+  },
+  {
+    "file": "app/keyboards/requests.py",
+    "line": 13,
+    "text": "✏️ حواله مبلغ دلخواه"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 12,
+    "text": "👤 کاربر عادی"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 13,
+    "text": "👨‍💼 مسئول"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 20,
+    "text": "🌐 شبکه"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 21,
+    "text": "🏢 مؤسسه"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 30,
+    "text": "👨‍💼 "
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 38,
+    "text": "کیبورد انتخاب نوع خط کاربر"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 40,
+    "text": "📱 آسیا"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 41,
+    "text": "📱 اثیر"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 48,
+    "text": "✅ بله، مجوز ارسال مستقیم دارد"
+  },
+  {
+    "file": "app/keyboards/users.py",
+    "line": 49,
+    "text": "❌ خیر، نیاز به تایید ادمین دارد"
+  },
+  {
+    "file": "app/services/cards.py",
+    "line": 109,
+    "text": "هیچ کارت فعالی برای این مبلغ و نوع موجود نیست."
+  },
+  {
+    "file": "app/services/requests.py",
+    "line": 211,
+    "text": "ثبت کسی که کارت را تایید و ارسال کرده است"
+  }
+]

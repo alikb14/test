@@ -1,0 +1,19 @@
+*** Update File: app/factory.py
+@@
+-    # Create dispatcher with logging middleware
+-    dp = Dispatcher(storage=storage)
+-    
+-    # Add logging middleware to log all updates
+-    dp.update.middleware(LoggingMiddleware())
+-    
+-    return dp
++    # Create dispatcher with logging middleware
++    dp = Dispatcher(storage=storage)
++
++    # Register logging middleware for messages and callback queries so events are captured
++    logging_middleware = LoggingMiddleware()
++    dp.message.middleware.register(logging_middleware)
++    dp.callback_query.middleware.register(logging_middleware)
++
++    return dp
+*** End Patch
